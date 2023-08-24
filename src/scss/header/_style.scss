@@ -1,0 +1,48 @@
+.header {
+    padding: 10px;
+    background: $bg-1;
+    .nav {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        
+        &__brand {
+            font-family: 'Zen Dots', cursive;
+            color: $title;
+            font-weight: 700;
+            font-size: 28px;
+        }
+
+        &__burger {
+            display: none;
+        }
+
+        &__links {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            align-items: center;
+            gap: 30px;
+        
+            &-item {
+                display: inline-block;
+                font-size: 18px;
+                font-weight: 400;
+                color: $title;
+                &::after {
+                    display:block;
+                    content: '';
+                    border-bottom: solid 3px $accent-2;  
+                    transform: scaleX(0);  
+                    transition: transform 250ms ease-in-out;
+                }
+                &:hover::after {
+                    transform: scaleX(1);
+                }
+            }
+        }
+    }
+}

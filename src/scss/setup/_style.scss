@@ -1,0 +1,20 @@
+.setup {
+    background-image: url('../img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 60px 20px;
+
+    &__title {
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+        color: $accent-2;
+    }
+    .swiper {
+        width: 400px;
+        height: 545px;
+      }
+}

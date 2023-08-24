@@ -1,0 +1,14 @@
+.about {
+    background: $bg-1;
+    padding: 40px 90px;
+    text-align: center;  
+    &__title {
+        color: $accent-2;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    &__description {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

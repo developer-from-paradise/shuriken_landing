@@ -1,0 +1,7 @@
+@import 'base/*.scss';
+@import 'global/_vars.scss';
+@import 'global/_global.scss';
+@import 'global/_fonts.scss';
+@import 'global/_svg.scss';
+@import '**/_*.scss';
+@import '../components/**/*.scss';
